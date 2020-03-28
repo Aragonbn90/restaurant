@@ -1,0 +1,8 @@
+version: '2'
+services:
+  restaurant-app:
+    build: ../../..
+    container_name: restaurant-app
+    environment:
+    ports:
+      - 8081:8081:
